@@ -1,0 +1,51 @@
+/* src/App.css */
+.stopwatch {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .time-display {
+    font-size: 3rem;
+    margin: 20px 0;
+  }
+  
+  .controls button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .controls button:hover {
+    background-color: #45a049;
+  }
+  
+  .controls button:active {
+    background-color: #3e8e41;
+  }
+  
+  .controls button:nth-child(2) {
+    background-color: #f44336;
+  }
+  
+  .controls button:nth-child(2):hover {
+    background-color: #e53935;
+  }
+  
